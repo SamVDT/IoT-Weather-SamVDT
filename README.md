@@ -63,14 +63,14 @@ During the course of this project, I encountered several challenges, including h
 ## Errors
 
 One of the errors I faced during this project was the "An error occurred while fetching data." 
-![Error One](public/SS6.ONG)
+![Error One](public/SS6.png)
 
 To resolve this, I had to reset my number in Visual Studio Code and align it with the IP address.
-![Error One Solution](public/SS7.ONG)
+![Error One Solution](public/SS7.png)
 
 Another error, the 'UND_ERR_CONNECT_TIMEOUT,' proved difficult to fix and sometimes rendered my code unrunnable.
 
-![Error Two](public/SS8.ONG)
+![Error Two](public/SS8.png)
 ## Project Overview
 
 This project provided valuable insights into IoT and its real-world applications. I learned to set up servers and run unique projects while gaining a deeper understanding of IoT. Despite facing challenges and setbacks, this project taught me resilience in the face of failure. I look forward to future opportunities and successes in the world of IoT.
