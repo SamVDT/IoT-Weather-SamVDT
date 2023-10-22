@@ -7,12 +7,12 @@ The Internet of Things (IoT) is a term used to describe devices that use sensors
 ### Breadboard
 The breadboard is an essential component that allows you to create temporary circuits for various projects. It is crucial for setting up IoT projects, such as this weather station.
 
-INSERT PHOTO
+![Breadboard](public/breadboard.jpeg)
 
 ### ESP32 Dev Module
 The ESP32 Dev Module is the microcontroller board used for this project. It is a versatile and powerful board with built-in support for the Arduino IDE, a generous number of programmable GPIO pins, and integrated flash and RAM for storing code and data.
 
-INSERT PHOTO
+![Dev Module](public/devmodule.jpeg)
 
 ### DHT11 Humidity Sensor
 The DHT11 Humidity Sensor is a cost-effective module used with the ESP32. It provides accurate humidity and temperature measurements, making it suitable for IoT weather-related projects.
@@ -22,12 +22,12 @@ The DHT11 Humidity Sensor is a cost-effective module used with the ESP32. It pro
 - Pin 3: NC (No Connection)
 - Pin 4: GND
 
-- INSERT PHOTO
+![DHT11 Humidity Sensor](public/dht11.jpeg)
 
 ### Breadboard Jumper Wires
 Breadboard jumper wires are used to create connections between components on the breadboard. They simplify the circuit assembly process.
 
-INSERT PHOTO
+![Jumper Wires](public/jumperwire.jpeg)
 
 ## Setup of VS Code and Arduino (For Macbook Pro)
 
@@ -38,12 +38,13 @@ To get started with this project, follow these steps:
 1. Download [Arduino IDE](https://www.arduino.cc/en/software) and open it.
 2. In Visual Studio Code, press `Cmd + ,` to open the settings.
 3. Insert the following URL into the "Additional Board Manager URLs": https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-INSERT PHOTO
+![3](public/SS1.png)
 
 4. Go to "Tools" > "Board" > "Boards Manager," search for "ESP32," and install it.
-INSERT PHOTO
+![4](public/SS3.png)
 5. Select your ESP32 module, connect it to your computer, and choose the appropriate port.
-INSERT PHOTO
+![5](public/SS4.png)
+![5](public/SS5.png)
 ## Usage
 
 IoT, like this weather station, offers numerous practical applications. You can use it to:
@@ -61,12 +62,15 @@ During the course of this project, I encountered several challenges, including h
 
 ## Errors
 
-One of the errors I faced during this project was the "An error occurred while fetching data." To resolve this, I had to reset my number in Visual Studio Code and align it with the IP address.
+One of the errors I faced during this project was the "An error occurred while fetching data." 
+![Error One](public/SS6.ONG)
 
-INSERT PHOTO
+To resolve this, I had to reset my number in Visual Studio Code and align it with the IP address.
+![Error One Solution](public/SS7.ONG)
+
 Another error, the 'UND_ERR_CONNECT_TIMEOUT,' proved difficult to fix and sometimes rendered my code unrunnable.
 
-INSERT PHOTO
+![Error Two](public/SS8.ONG)
 ## Project Overview
 
 This project provided valuable insights into IoT and its real-world applications. I learned to set up servers and run unique projects while gaining a deeper understanding of IoT. Despite facing challenges and setbacks, this project taught me resilience in the face of failure. I look forward to future opportunities and successes in the world of IoT.
