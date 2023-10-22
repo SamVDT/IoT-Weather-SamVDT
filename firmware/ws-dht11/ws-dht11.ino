@@ -2,7 +2,7 @@
 *  Weather Station App
 *  CGS Semester 2
 *  Task 2
-*  Author: your name here
+*  Author: Samuel van der Toorn
 */
 
 #include <math.h>
